@@ -1,5 +1,5 @@
 .todo-container {
-  background: #535353;
+  background: #000000;
   padding: 30px 25px;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 60, 180, 0.08);
@@ -9,7 +9,7 @@
 
 .accent {
   color: #1976d2;
-  background: #000000;
+  background: #ffffff;
   border: none;
   border-radius: 6px;
   padding: 8px 16px;
@@ -30,10 +30,10 @@
 }
 .todo-list-column {
   flex: 1;
-  background: #a2a2a2;
+  background: #ffffff;
   border-radius: 10px;
   padding: 15px;
-  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.05);
+  box-shadow: 0 2px 8px rgba(8, 132, 255, 0.05);
 }
 .todo-list-column h2 {
   text-align: center;
@@ -119,5 +119,18 @@ ul {
 }
 
 .read-the-docs {
-  color: #888;
+  color: #ffffff;
+}
+
+#pick-date{
+  background-color: #000000;
+  outline-style: none;
+  border: none;
+}
+
+#task-input {
+  background-color: #000000;
+  outline-style: none;
+  border: none;
+  color: #ffffff;
 }
