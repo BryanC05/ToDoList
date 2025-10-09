@@ -63,12 +63,14 @@ function App() {
       <h1 className="accent">To Do List</h1>
       <div className="input-group">
         <input
+          id='task-input'
           type="text"
           value={input}
           onChange={e => setInput(e.target.value)}
           placeholder="Add a new task..."
         />
         <input
+          id='pick-date'
           type="date"
           value={date}
           onChange={e => setDate(e.target.value)}
